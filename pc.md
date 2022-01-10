@@ -34,5 +34,5 @@ The command to switch branches is: `git checkout <existing_branch>`. If the bran
 `git pull` fetches and downloads content from a remote repository and immediately updates the local repository to match that content.
 The difference between these commands is the speed in which they transfer material. `git fetch` is mainly for checking if there are any changes available from the local repository you're currently working on, while `git pull` will update your local repository without you being able to check what changes are being made. `git merge` is used after `git fetch` to execute what `git pull` would have already done.  
 6. What is a merge conflict? How do you resolve a merge conflict? 
-
-test
+A merge conflict is when you have competing commits, and Git needs us to decide what changes to keep in the final merge. To resolve this issue, we must manually edit the conflicted file in on eof the following ways:
+First, use conflict editor on Github. Or Second, resolve the merge conflict in a local clone of the repository and push change to Github.
