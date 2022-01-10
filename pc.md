@@ -22,7 +22,8 @@ Now that you are all set up, it's time to learn a little more about the tools of
 
 1. What is git? What is the difference between git and GitHub?
 Git is a open source distributed version control system used to manage your source code history. Git is used to Github is a cloud-based git hosting service that lets users collaborate on projects with git commands. Github allows you to share your repositories with others, Access other user's repositories, and store remote copies of your repositories as backup of your local copies.
-2. Why do we create a branch? 
+2. Why do we create a branch?
+We create a branch to isolate your work from other team members. As well as keep questionable or unstable code out of the main branch.
 3. What is the purpose of a pull request? 
 4. What is the command you can use to switch between branches? For example you are working on a feature branch and you want to switch back to main. 
 5. Explain the difference between `git fetch`, `git merge` and `git pull` what does each command do? 
