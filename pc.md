@@ -25,6 +25,7 @@ Git is a open source distributed version control system used to manage your sour
 2. Why do we create a branch?
 We create a branch to isolate your work from other team members. As well as keep questionable or unstable code out of the main branch.
 3. What is the purpose of a pull request? 
+The purpose of a pull request is to update the remote repository from the local repository. When a pull request is opened, you can have your branch reviewed, discuss changes, and add follow up commits until it is ready to merge into the main branch.
 4. What is the command you can use to switch between branches? For example you are working on a feature branch and you want to switch back to main. 
 5. Explain the difference between `git fetch`, `git merge` and `git pull` what does each command do? 
 6. What is a merge conflict? How do you resolve a merge conflict? 
