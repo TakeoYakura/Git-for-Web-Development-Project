@@ -27,8 +27,12 @@ We create a branch to isolate your work from other team members. As well as keep
 3. What is the purpose of a pull request? 
 The purpose of a pull request is to update the remote repository from the local repository. When a pull request is opened, you can have your branch reviewed, discuss changes, and add follow up commits until it is ready to merge into the main branch.
 4. What is the command you can use to switch between branches? For example you are working on a feature branch and you want to switch back to main. 
-The command to switch branches is: git checkout <existing_branch>. If the branch doesn't exist yet, thats when the -b is added. So the example to get back to the main branch from a feature branch would be: git checkout <name_of_main_branch>. If i want to switch back it's: git checkout <name_of_feature_branch>.
+The command to switch branches is: `git checkout <existing_branch>`. If the branch doesn't exist yet, thats when the -b is added. So the example to get back to the main branch from a feature branch would be: `git checkout <name_of_main_branch>`. If i want to switch back it's: `git checkout <name_of_feature_branch>`.
 5. Explain the difference between `git fetch`, `git merge` and `git pull` what does each command do? 
+`git fetch` downloads commits, files, and refs from a remote repository to your local repository. It isolates fetched content from your local content to review commits before merging. Must use `git checkout` command to access.
+`git merge` joins two or more development histories together. Meaning you're joining a branch into another branch. 
+`git pull` fetches and downloads content from a remote repository and immediately updates the local repository to match that content.
+The difference between these commands is the speed in which they transfer material. `git fetch` is mainly for checking if there are any changes available from the local repository you're currently working on, while `git pull` will update your local repository without you being able to check what changes are being made. `git merge` is used after `git fetch` to execute what `git pull` would have already done.  
 6. What is a merge conflict? How do you resolve a merge conflict? 
 
 test
