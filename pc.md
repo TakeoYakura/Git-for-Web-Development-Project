@@ -27,6 +27,7 @@ We create a branch to isolate your work from other team members. As well as keep
 3. What is the purpose of a pull request? 
 The purpose of a pull request is to update the remote repository from the local repository. When a pull request is opened, you can have your branch reviewed, discuss changes, and add follow up commits until it is ready to merge into the main branch.
 4. What is the command you can use to switch between branches? For example you are working on a feature branch and you want to switch back to main. 
+The command to switch branches is: git checkout <existing_branch>. If the branch doesn't exist yet, thats when the -b is added. So the example to get back to the main branch from a feature branch would be: git checkout <name_of_main_branch>. If i want to switch back it's: git checkout <name_of_feature_branch>.
 5. Explain the difference between `git fetch`, `git merge` and `git pull` what does each command do? 
 6. What is a merge conflict? How do you resolve a merge conflict? 
 
